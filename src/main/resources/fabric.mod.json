@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "compostater",
+	"version": "${version}",
+	"name": "Compostater",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Riftworks Studios"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/compostater/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.riftworks.compostater.Compostater"
+		],
+        "client": [
+          "net.riftworks.compostater.CompostaterClient"
+        ],
+		"fabric-datagen": [
+			"net.riftworks.compostater.CompostaterDataGenerator"
+		]
+	},
+	"mixins": [
+		"compostater.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
