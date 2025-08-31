@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "compostater",
+  "pattern": [
+    "_ _",
+    "_P_",
+    "___"
+  ],
+  "key": {
+    "_": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "P": {
+      "item": "minecraft:potato"
+    }
+  },
+  "result": {
+    "item": "compostater:compostater",
+    "count": 1
+  },
+  "show_notification": true
+}

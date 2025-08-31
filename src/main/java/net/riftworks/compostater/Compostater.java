@@ -2,6 +2,9 @@ package net.riftworks.compostater;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.riftworks.compostater.block.ModBlocks;
+import net.riftworks.compostater.block.custom.CompostaterBlock;
+import net.riftworks.compostater.item.ModItemGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,7 +15,9 @@ public class Compostater implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        CompostaterBlock.registerDefaultCompostableItems();
 
-		LOGGER.info("Hello Fabric world!");
+        ModBlocks.registerModBlocks();
+        ModItemGroups.registerItemGroups();
 	}
 }
