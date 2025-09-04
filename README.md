@@ -10,4 +10,4 @@
 Download on Modrinth - https://modrinth.com/mod/compostater  
 Download on CurseForge - https://www.curseforge.com/minecraft/mc-mods/compostater
 
-Bonus - even though it says it's for version 1.20.1, it works on 1.20.2!
+Made for Minecraft 1.20.4
